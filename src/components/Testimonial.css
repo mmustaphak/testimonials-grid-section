@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 200;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+article{
+    background-color: hsl(263, 55%, 52%);
+    padding: 1.5rem;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    max-width: 38rem;
+    max-height: 20rem;
+}
+article div{
+    display: flex;
+    max-height: 12vh;
+    justify-content: space-between;
+    max-width: 8.5rem;
+}
+article div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color:hsl(0, 0%, 100%);
+}
+article div div p{
+    font-size: 10px;
+}
+article h3{
+    margin-top: 1rem;
+}
+article div div p{
+    color: hsl(0, 0%, 100%);
+    opacity: .5;
+}
+article .testimonial--details img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
+    border: 1.5px solid hsl(0, 0%, 100%);
+}
+.testimonial--mainComment{
+    margin-top: 1rem;
+    font-size: 12px;
+    opacity: .7;
+}
+.testimonial--quotes{
+    color: initial;
+    border: initial;
+    position: absolute;
+    opacity: .5;
+    width: 6rem;
+    top: 0rem;
+    right: 9.4rem;
+}
