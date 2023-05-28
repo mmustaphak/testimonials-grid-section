@@ -2,16 +2,17 @@ import "./Testimonial.css"
 import quote from "../assets/bg-pattern-quotation.svg"
 export default function Testimonial(props){
     return(
-        <article>
+        <article >
             <div className="testimonial--details">
-                <img src={`./src/assets/image-${props.pfp}.jpg`}/>
+                <img src={`./src/assets/image-${props.item.pfp}.jpg`}/>
                 <div>
-                    <h5>{props.name}</h5>
+                    <h5>{props.item.name}</h5>
                     <p>Verified Graduate</p>
                 </div>
-            </div><img className="testimonial--quotes"src={quote}/>
-            <h3>{props.mainComment}</h3>
-            <p className="testimonial--mainComment">{props.fullComment}</p>
+            </div>
+            {props.item.id === 1 && <img className="testimonial--quotes"src={quote}/>}
+            <h3>{props.item.mainComment}</h3>
+            <p className="testimonial--mainComment">{props.item.fullComment}</p>
         </article>
     )
 }
