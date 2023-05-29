@@ -2,7 +2,7 @@ import "./Testimonial.css"
 import quote from "../assets/bg-pattern-quotation.svg"
 export default function Testimonial(props){
     return(
-        <article >
+        <article className={`testimonial--${props.item.id}`} >
             <div className="testimonial--details">
                 <img src={`./src/assets/image-${props.item.pfp}.jpg`}/>
                 <div>

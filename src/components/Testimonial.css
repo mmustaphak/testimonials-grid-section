@@ -7,15 +7,43 @@
 }
 body{
     font-family: 'Inter', sans-serif;
+    background-color: hsl(210, 22%, 87%);
 }
 article{
-    background-color: hsl(263, 55%, 52%);
     padding: 1.5rem;
     border-radius: 5px;
     color: hsl(0, 0%, 100%);
     position: relative;
     max-width: 38rem;
     max-height: 20rem;
+}
+.testimonial--1{
+    background-color: hsl(263, 55%, 52%);
+}
+.testimonial--2{
+    background-color: hsl(217, 19%, 35%);
+}
+.testimonial--4{
+    background-color: hsl(219, 29%, 14%);
+}
+.testimonial--4 div img{
+    border: 2px solid hsl(263, 55%, 52%) !important;
+}
+.testimonial--3 h5, .testimonial--5 h5{
+    color: hsl(217, 19%, 35%);
+    font-weight: 500;
+}
+
+.testimonial--3, .testimonial--5{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+.testimonial--3 div p, .testimonial--5 div p{
+    color: hsl(217, 19%, 35%);
+    opacity: 70%;
+}
+.testimonial--5 div, .testimonial--3 div{
+    min-width: 10rem;
 }
 article div{
     display: flex;
@@ -44,6 +72,7 @@ article .testimonial--details img{
     height: 2rem;
     border-radius: 30px;
     border: 1.5px solid hsl(0, 0%, 100%);
+    margin-right:1rem;
 }
 .testimonial--mainComment{
     margin-top: 1rem;
