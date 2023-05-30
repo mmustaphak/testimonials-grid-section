@@ -1,0 +1,13 @@
+.comments{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.comments article:last-child{
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+.col-span-2{
+    grid-column: span 2;
+}

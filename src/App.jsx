@@ -1,5 +1,6 @@
 import Testimonial from "./components/testimonail"
 import data from "./data.js"
+import "./App.css"
 function App() {
     const dataElements = data.map( item => {
         return <Testimonial 
@@ -8,9 +9,9 @@ function App() {
         />
     })
    return(
-    <>
+    <div className="comments">
         {dataElements}
-    </>
+    </div>
    )
 }
 
