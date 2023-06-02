@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [also here](https://testimonials-grid-section-dun-iota.vercel.app/)
+- Live Site URL: [over here](https://testimonials-grid-section-dun-iota.vercel.app/)
 
 
 ### Built with
