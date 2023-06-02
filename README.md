@@ -53,4 +53,4 @@ I plan on continuing honing my css skills especially flexbox and gird
 
  i would like to use this opportunity to appreciate a friend and mentor Esin Ridollah. This link his soical will be in the link below.
 
- -Twitter - [@esinnation] (https://twitter.com/esinnation)
+ -Twitter - [@esinnation](https://twitter.com/esinnation)
